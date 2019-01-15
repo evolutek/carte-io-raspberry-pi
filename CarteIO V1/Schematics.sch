@@ -8947,7 +8947,11 @@ temperature compensated, 6,2 V</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.25" drill="0">
+</class>
+<class number="1" name="5V" width="0.5" drill="0">
+</class>
+<class number="2" name="power" width="0.5" drill="0">
 </class>
 </classes>
 <parts>
@@ -9592,7 +9596,7 @@ temperature compensated, 6,2 V</description>
 <busses>
 </busses>
 <nets>
-<net name="+3V3" class="0">
+<net name="+3V3" class="2">
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
@@ -9677,7 +9681,7 @@ temperature compensated, 6,2 V</description>
 <junction x="104.14" y="160.02"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
@@ -10294,7 +10298,7 @@ temperature compensated, 6,2 V</description>
 <label x="20.32" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="2">
 <segment>
 <pinref part="D2" gate="G$1" pin="B"/>
 <pinref part="RFBT" gate="G$1" pin="2"/>
