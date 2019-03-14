@@ -10611,7 +10611,7 @@ Source: www.kingbright.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.25" drill="0">
+<class number="0" name="default" width="0.15" drill="0">
 </class>
 <class number="1" name="5V" width="0.5" drill="0">
 </class>
@@ -10789,7 +10789,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100"/>
 <part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100"/>
-<part name="G8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="G18" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="SUPPLY75" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="G23" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="SUPPLY76" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -11417,7 +11417,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="89.9414" y="16.51" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="94.742" y="16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="G8" gate="G$1" x="220.98" y="109.22" smashed="yes" rot="R180">
+<instance part="G18" gate="G$1" x="220.98" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="217.424" y="113.792" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="215.265" y="113.792" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -11463,7 +11463,7 @@ Source: www.kingbright.com</description>
 <busses>
 </busses>
 <nets>
-<net name="+3V3" class="2">
+<net name="+3V3" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
@@ -11848,7 +11848,7 @@ Source: www.kingbright.com</description>
 <pinref part="SUPPLY73" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="G8" gate="G$1" pin="C"/>
+<pinref part="G18" gate="G$1" pin="C"/>
 <pinref part="SUPPLY75" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -12298,7 +12298,7 @@ Source: www.kingbright.com</description>
 <wire x1="220.98" y1="101.6" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
 <junction x="220.98" y="101.6"/>
 <label x="220.98" y="106.68" size="1.778" layer="95" rot="R180"/>
-<pinref part="G8" gate="G$1" pin="A"/>
+<pinref part="G18" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="GPIO23" class="0">
@@ -12444,7 +12444,6 @@ Source: www.kingbright.com</description>
 <errors>
 <approved hash="202,1,147.32,137.16,U1,R2IN,,,,"/>
 <approved hash="202,1,213.36,139.7,U1,T2IN,,,,"/>
-<approved hash="202,1,38.1,63.5,U2,SW_2,,,,"/>
 </errors>
 </schematic>
 </drawing>
