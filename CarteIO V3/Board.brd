@@ -4038,11 +4038,12 @@
 V3.0 2020</text>
 </plain>
 <libraries>
-<library name="Connectors">
+<library name="Connectors" urn="urn:adsk.eagle:library:16054717">
 <packages>
-<package name="B03B-PASK">
+<package name="B03B-PASK" urn="urn:adsk.eagle:footprint:16054720/1" library_version="1" library_locally_modified="yes">
 <pad name="P$1" x="2" y="0" drill="0.7"/>
 <pad name="P$2" x="0" y="0" drill="0.7"/>
+<pad name="P$3" x="-2" y="0" drill="0.7"/>
 <text x="2.968" y="0.5" size="1.27" layer="21">1</text>
 <text x="-2.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
@@ -4051,7 +4052,6 @@ V3.0 2020</text>
 <wire x1="4" y1="2.15" x2="4" y2="-3.15" width="0.127" layer="51"/>
 <wire x1="-4" y1="-3.15" x2="-4" y2="2.15" width="0.127" layer="51"/>
 <hole x="3.5" y="1.7" drill="1.1"/>
-<pad name="P$3" x="-2" y="0" drill="0.7"/>
 </package>
 <package name="B04B-PASK" urn="urn:adsk.eagle:footprint:15874083/2">
 <pad name="P$1" x="3" y="0" drill="0.7"/>
@@ -4067,11 +4067,12 @@ V3.0 2020</text>
 <wire x1="-5" y1="-3.15" x2="-5" y2="2.15" width="0.127" layer="51"/>
 <hole x="4.5" y="1.7" drill="1.1"/>
 </package>
-<package name="B05B-PASK">
+<package name="B05B-PASK" urn="urn:adsk.eagle:footprint:16054719/1" library_version="1" library_locally_modified="yes">
 <pad name="P$1" x="4" y="0" drill="0.7"/>
 <pad name="P$2" x="2" y="0" drill="0.7"/>
 <pad name="P$3" x="0" y="0" drill="0.7"/>
 <pad name="P$4" x="-2" y="0" drill="0.7"/>
+<pad name="P$5" x="-4" y="0" drill="0.7"/>
 <text x="5" y="0.5" size="1.27" layer="21">1</text>
 <text x="-2.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
@@ -4080,9 +4081,8 @@ V3.0 2020</text>
 <wire x1="6" y1="2.15" x2="6" y2="-3.15" width="0.127" layer="51"/>
 <wire x1="-6" y1="-3.15" x2="-6" y2="2.15" width="0.127" layer="51"/>
 <hole x="5.5" y="1.7" drill="1.1"/>
-<pad name="P$5" x="-4" y="0" drill="0.7"/>
 </package>
-<package name="P-2604-3102">
+<package name="P-2604-3102" urn="urn:adsk.eagle:footprint:16054718/1" library_version="1" library_locally_modified="yes">
 <wire x1="-11.7" y1="-9.4" x2="-11.7" y2="-5" width="0.01" layer="51"/>
 <wire x1="-11.7" y1="-4.4" x2="-11.7" y2="0" width="0.01" layer="51"/>
 <wire x1="3.3" y1="-2.9" x2="3.3" y2="0" width="0.01" layer="51"/>
@@ -4603,6 +4603,21 @@ V3.0 2020</text>
 <package3d name="B04B-PASK" urn="urn:adsk.eagle:package:15874091/3" type="model">
 <packageinstances>
 <packageinstance name="B04B-PASK"/>
+</packageinstances>
+</package3d>
+<package3d name="B03B-PASK" urn="urn:adsk.eagle:package:16054728/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="B03B-PASK"/>
+</packageinstances>
+</package3d>
+<package3d name="B05B-PASK" urn="urn:adsk.eagle:package:16054727/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="B05B-PASK"/>
+</packageinstances>
+</package3d>
+<package3d name="P-2604-3102" urn="urn:adsk.eagle:package:16054726/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="P-2604-3102"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6010,7 +6025,7 @@ Packages changed/corrected 22.02.2006 librarian@cadsoft.de&lt;br&gt;
 </library>
 <library name="MAX3232EID">
 <packages>
-<package name="SOIC127P600X175-16N">
+<package name="SOIC127P600X175-16N" urn="urn:adsk.eagle:footprint:16068542/1">
 <wire x1="-3.556" y1="-0.5588" x2="-1.2446" y2="-0.5588" width="0.1524" layer="21"/>
 <wire x1="-1.2446" y1="9.4488" x2="-2.0828" y2="9.4488" width="0.1524" layer="21"/>
 <wire x1="-2.0828" y1="9.4488" x2="-2.6924" y2="9.4488" width="0.1524" layer="21"/>
@@ -6059,10 +6074,17 @@ Packages changed/corrected 22.02.2006 librarian@cadsoft.de&lt;br&gt;
 <smd name="16" x="0" y="8.89" dx="2.0574" dy="0.6096" layer="1"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOIC127P600X175-16N" urn="urn:adsk.eagle:package:16068544/2" type="model">
+<packageinstances>
+<packageinstance name="SOIC127P600X175-16N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="TCA9548APWR">
 <packages>
-<package name="SOP65P640X120-24N">
+<package name="SOP65P640X120-24N" urn="urn:adsk.eagle:footprint:16068548/1">
 <text x="-3.10345" y="-5.03086875" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-2.99065" y="4.90913125" size="1.27" layer="25">&gt;NAME</text>
 <circle x="-4.44" y="3.985" radius="0.2" width="0.16" layer="21"/>
@@ -6103,6 +6125,13 @@ Packages changed/corrected 22.02.2006 librarian@cadsoft.de&lt;br&gt;
 <smd name="24" x="2.87" y="3.575" dx="1.57" dy="0.41" layer="1" roundness="25"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOP65P640X120-24N" urn="urn:adsk.eagle:package:16068550/2" type="model">
+<packageinstances>
+<packageinstance name="SOP65P640X120-24N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -7171,7 +7200,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 <packages3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="5">
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="11">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R0603"/>
@@ -7437,82 +7466,91 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1uF" x="60.513" y="34.882" smashed="yes" rot="R90">
+<element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" override_package3d_urn="urn:adsk.eagle:package:16068578/2" override_package_urn="urn:adsk.eagle:footprint:25706/1" value="0.1uF" x="60.513" y="34.882" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.878" y="33.247" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1uF" x="64.643" y="31.651" smashed="yes" rot="R180">
+<element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" override_package3d_urn="urn:adsk.eagle:package:16068577/2" override_package_urn="urn:adsk.eagle:footprint:25706/1" value="0.1uF" x="64.643" y="31.651" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.278" y="30.016" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1uF" x="68.31" y="31.64" smashed="yes" rot="R180">
+<element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" override_package3d_urn="urn:adsk.eagle:package:16068580/2" override_package_urn="urn:adsk.eagle:footprint:25706/1" value="0.1uF" x="68.31" y="31.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.072" y="30.132" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1uF" x="71.145" y="40.262" smashed="yes" rot="R90">
+<element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" override_package3d_urn="urn:adsk.eagle:package:16068581/2" override_package_urn="urn:adsk.eagle:footprint:25706/1" value="0.1uF" x="71.145" y="40.262" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.51" y="41.627" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1uF" x="65.99" y="47.36" smashed="yes">
+<element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" override_package3d_urn="urn:adsk.eagle:package:16068583/2" override_package_urn="urn:adsk.eagle:footprint:25706/1" value="0.1uF" x="65.99" y="47.36" smashed="yes">
 <attribute name="NAME" x="65.355" y="47.995" size="1.27" layer="25"/>
 </element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="1N821" x="3.36" y="12.94" smashed="yes" rot="R270">
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" override_package3d_urn="urn:adsk.eagle:package:16068556/2" override_package_urn="urn:adsk.eagle:footprint:43098/1" value="1N821" x="3.36" y="12.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.63" y="15.226" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="1" x="3.36" y="12.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="12V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="20.832" y="2.864" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.102" y="1.594" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="68" x="20.832" y="2.864" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.102" y="5.404" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="3.3V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="20.781" y="14.269" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.686" y="12.999" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="68" x="20.781" y="14.269" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.051" y="16.809" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="5V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="20.781" y="8.538" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.051" y="7.268" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="68" x="20.781" y="8.538" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.051" y="11.078" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LEDS" library="Connectors" package="B03B-PASK" value="JST3" x="42.374" y="43.889" smashed="yes" rot="R90">
+<element name="LEDS" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="42.374" y="43.889" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.834" y="41.349" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="PWM1" library="Connectors" package="B03B-PASK" value="JST3" x="54.009" y="43.754" smashed="yes" rot="R90">
+<element name="PWM1" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="54.009" y="43.754" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.469" y="41.214" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="150" x="20.716" y="10.502" smashed="yes" rot="R180"/>
-<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="65" x="20.639" y="16.216" smashed="yes" rot="R180"/>
-<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="500" x="20.818" y="4.844" smashed="yes" rot="R180"/>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="61.31" y="38.871" smashed="yes" rot="R90">
+<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068559/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="150" x="20.716" y="10.502" smashed="yes" rot="R180"/>
+<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068569/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="65" x="20.639" y="16.216" smashed="yes" rot="R180"/>
+<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068567/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="500" x="20.818" y="4.844" smashed="yes" rot="R180"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068582/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="61.31" y="38.871" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.675" y="38.236" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="59.29" y="42.169" smashed="yes" rot="R90">
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068576/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="59.29" y="42.169" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.655" y="41.534" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="RX" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="59.261" y="45.658" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.531" y="47.436" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="68" x="59.261" y="45.658" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="56.721" y="46.928" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" package="FE20-2" package3d_urn="urn:adsk.eagle:package:8184/1" value="J1" x="32.5" y="52.5" smashed="yes" rot="MR180">
+<element name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" package="FE20-2" package3d_urn="urn:adsk.eagle:package:8184/1" override_package3d_urn="urn:adsk.eagle:package:16068572/2" override_package_urn="urn:adsk.eagle:footprint:8109/1" value="J1" x="32.5" y="52.5" smashed="yes" rot="MR180">
 <attribute name="MF" value="" x="71.87" y="99.49" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="71.87" y="99.49" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="71.87" y="99.49" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="71.87" y="99.49" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULARITY" value="0" x="32.5" y="52.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="X1" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" package="H5M09RA" package3d_urn="urn:adsk.eagle:package:10559/1" value="D-SUB9-H5M09RA" x="75.692" y="43.113" smashed="yes" rot="R90">
+<element name="X1" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" package="H5M09RA" package3d_urn="urn:adsk.eagle:package:10559/1" override_package3d_urn="urn:adsk.eagle:package:16068655/2" override_package_urn="urn:adsk.eagle:footprint:10503/1" value="D-SUB9-H5M09RA" x="75.692" y="43.113" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="92.202" y="72.323" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="92.202" y="72.323" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="92.202" y="72.323" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="92.202" y="72.323" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="1" x="75.692" y="43.113" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="P1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="47.616" y="43.778" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.759" y="46.064" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="68" x="47.616" y="43.778" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="48.886" y="46.318" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="P0" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="36.315" y="43.895" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.458" y="46.181" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="68" x="36.315" y="43.895" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="37.585" y="46.435" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="36.277" y="41.712" smashed="yes">
+<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068632/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="36.277" y="41.712" smashed="yes">
 <attribute name="NAME" x="35.844" y="39.294" size="1.27" layer="25"/>
 </element>
-<element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="47.454" y="41.661" smashed="yes">
+<element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068633/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="47.454" y="41.661" smashed="yes">
 <attribute name="NAME" x="46.819" y="39.296" size="1.27" layer="25"/>
 </element>
-<element name="U1" library="MAX3232EID" package="SOIC127P600X175-16N" value="MAX3232EID" x="64" y="45" smashed="yes" rot="R180">
+<element name="U1" library="MAX3232EID" package="SOIC127P600X175-16N" package3d_urn="urn:adsk.eagle:package:16068544/2" value="MAX3232EID" x="64" y="45" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="64" y="45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" 2/2 Transceiver Full RS232 16-SOIC " x="64" y="45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="64" y="45" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7521,7 +7559,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="SOIC-16 Texas Instruments" x="64" y="45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="64" y="45" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U2" library="TCA9548APWR" package="SOP65P640X120-24N" value="TCA9548APWR" x="29.367" y="43.619" smashed="yes" rot="R90">
+<element name="U2" library="TCA9548APWR" package="SOP65P640X120-24N" package3d_urn="urn:adsk.eagle:package:16068550/2" value="TCA9548APWR" x="29.367" y="43.619" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Unavailable" x="29.367" y="43.619" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Bus Switch 1 x 8:1 24-TSSOP " x="29.367" y="43.619" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="29.367" y="43.619" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7530,59 +7568,63 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="TSSOP-24 Texas Instruments" x="29.367" y="43.619" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="29.367" y="43.619" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1uF" x="23.538" y="45.312" smashed="yes" rot="R270">
+<element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" override_package3d_urn="urn:adsk.eagle:package:16068584/2" override_package_urn="urn:adsk.eagle:footprint:25706/1" value="0.1uF" x="23.538" y="45.312" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.173" y="42.947" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="19.619" y="46" smashed="yes">
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068587/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="10k" x="19.619" y="46" smashed="yes">
 <attribute name="NAME" x="18.984" y="46.635" size="1.27" layer="25"/>
 </element>
-<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="20" y="43" smashed="yes">
+<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068588/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="10k" x="20" y="43" smashed="yes">
 <attribute name="NAME" x="19.365" y="43.635" size="1.27" layer="25"/>
 </element>
-<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="20" y="40" smashed="yes">
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068586/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="10k" x="20" y="40" smashed="yes">
 <attribute name="NAME" x="19.365" y="40.635" size="1.27" layer="25"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="21.021" y="36.136" smashed="yes">
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="21.021" y="36.136" smashed="yes">
 <attribute name="NAME" x="20.386" y="36.771" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="21.021" y="36.136" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="11.021" y="49.136" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="21" y="33" smashed="yes">
+<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="21" y="33" smashed="yes">
 <attribute name="NAME" x="20.365" y="33.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="21" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="6" y="41" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="21" y="30" smashed="yes">
+<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="21" y="30" smashed="yes">
 <attribute name="NAME" x="20.365" y="30.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="21" y="30" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="11" y="38" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW1" library="special" library_urn="urn:adsk.eagle:library:367" package="EDG-03" package3d_urn="urn:adsk.eagle:package:26663/2" value="" x="14" y="33" smashed="yes">
 <attribute name="NAME" x="8.894" y="31.542" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="17" x="14" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.428" y="26.396" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="COLOR2" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="34.844" y="32.636" smashed="yes" rot="R90">
+<element name="COLOR2" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="34.844" y="32.636" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.304" y="28.826" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="MDB" library="Connectors" package="B05B-PASK" value="JST5" x="42.341" y="32.842" smashed="yes" rot="R90">
+<element name="MDB" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B05B-PASK" package3d_urn="urn:adsk.eagle:package:16054727/2" value="JST5" x="42.341" y="32.842" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.801" y="30.032" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="PUMP1" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="40" y="18" smashed="yes" rot="R90">
+<element name="PUMP1" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="40" y="18" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.46" y="14.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="PUMP2" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="40" y="7" smashed="yes" rot="R90">
+<element name="PUMP2" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="40" y="7" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.46" y="3.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="PUMP3" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="48" y="18" smashed="yes" rot="R90">
+<element name="PUMP3" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="48" y="18" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.46" y="14.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="PUMP4" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="48" y="7" smashed="yes" rot="R90">
+<element name="PUMP4" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="48" y="7" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.46" y="3.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="PUMP5" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="56" y="18" smashed="yes" rot="R90">
+<element name="PUMP5" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="56" y="18" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.46" y="14.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="PUMP6" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="56" y="7" smashed="yes" rot="R90">
+<element name="PUMP6" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="56" y="7" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.46" y="3.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="IN_5V" library="Connectors" package="P-2604-3102" value="2604-3102" x="7.491" y="15.268" smashed="yes" rot="R90">
+<element name="IN_5V" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="P-2604-3102" package3d_urn="urn:adsk.eagle:package:16054726/2" value="2604-3102" x="7.491" y="15.268" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Unavailable" x="7.491" y="15.268" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" PCB Terminal Block, lever, 4 mm2, Pin spacing 5 mm, 2-pole, Push-in Cage Clamp " x="7.491" y="15.268" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="WAGO Innovative Connections" x="7.491" y="15.268" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7591,7 +7633,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="7.491" y="15.268" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="7.491" y="15.268" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IN_12V" library="Connectors" package="P-2604-3102" value="2604-3102" x="25" y="15" smashed="yes" rot="R90">
+<element name="IN_12V" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="P-2604-3102" package3d_urn="urn:adsk.eagle:package:16054726/2" value="2604-3102" x="25" y="15" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Unavailable" x="25" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" PCB Terminal Block, lever, 4 mm2, Pin spacing 5 mm, 2-pole, Push-in Cage Clamp " x="25" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="WAGO Innovative Connections" x="25" y="15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7600,68 +7642,76 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="25" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="25" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TIRETTE" library="Connectors" package="B03B-PASK" value="JST3" x="53.956" y="33.237" smashed="yes" rot="R90">
+<element name="TIRETTE" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="53.956" y="33.237" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.416" y="30.427" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="GTB1" library="Connectors" package="B03B-PASK" value="JST3" x="71" y="23" smashed="yes" rot="R90">
+<element name="GTB1" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="71" y="23" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.46" y="20.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="265" x="65.603" y="23" smashed="yes" rot="R180"/>
-<element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="65.54" y="20.719" smashed="yes"/>
+<element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068636/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="265" x="65.603" y="23" smashed="yes" rot="R180"/>
+<element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068638/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="65.54" y="20.719" smashed="yes"/>
 <element name="LED_GTB1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="65.603" y="25" smashed="yes" rot="R270">
+<attribute name="POPULARITY" value="68" x="65.603" y="25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.333" y="22.46" size="1.27" layer="27"/>
 </element>
-<element name="GTB2" library="Connectors" package="B03B-PASK" value="JST3" x="71" y="14" smashed="yes" rot="R90">
+<element name="GTB2" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="71" y="14" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.46" y="11.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="265" x="65.54" y="14.035" smashed="yes" rot="R180"/>
-<element name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="65.555" y="11.762" smashed="yes"/>
-<element name="GTB3" library="Connectors" package="B03B-PASK" value="JST3" x="71" y="5" smashed="yes" rot="R90">
+<element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068643/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="265" x="65.54" y="14.035" smashed="yes" rot="R180"/>
+<element name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068644/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="65.555" y="11.762" smashed="yes"/>
+<element name="GTB3" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="71" y="5" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.46" y="2.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="265" x="65.667" y="5.001" smashed="yes" rot="R180"/>
-<element name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="65.667" y="2.698" smashed="yes"/>
+<element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068639/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="265" x="65.667" y="5.001" smashed="yes" rot="R180"/>
+<element name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068640/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="65.667" y="2.698" smashed="yes"/>
 <element name="LED_GTB3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="65.603" y="7" smashed="yes" rot="R270">
+<attribute name="POPULARITY" value="68" x="65.603" y="7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.333" y="4.46" size="1.27" layer="27"/>
 </element>
-<element name="GTB4" library="Connectors" package="B03B-PASK" value="JST3" x="82" y="23" smashed="yes" rot="R90">
+<element name="GTB4" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="82" y="23" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.46" y="20.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="265" x="76.635" y="23" smashed="yes" rot="R180"/>
-<element name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="76.58" y="20.739" smashed="yes"/>
+<element name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068646/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="265" x="76.635" y="23" smashed="yes" rot="R180"/>
+<element name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068647/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="76.58" y="20.739" smashed="yes"/>
 <element name="LED_GTB4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="76.619" y="25" smashed="yes" rot="R270">
+<attribute name="POPULARITY" value="68" x="76.619" y="25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="75.349" y="22.46" size="1.27" layer="27"/>
 </element>
-<element name="GTB5" library="Connectors" package="B03B-PASK" value="JST3" x="82" y="14" smashed="yes" rot="R90">
+<element name="GTB5" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="82" y="14" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.46" y="11.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="265" x="76.492" y="14" smashed="yes" rot="R180"/>
-<element name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="76.413" y="11.727" smashed="yes"/>
+<element name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068641/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="265" x="76.492" y="14" smashed="yes" rot="R180"/>
+<element name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068642/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="76.413" y="11.727" smashed="yes"/>
 <element name="LED_GTB5" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="76.492" y="16" smashed="yes" rot="R270">
+<attribute name="POPULARITY" value="68" x="76.492" y="16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="75.222" y="13.46" size="1.27" layer="27"/>
 </element>
-<element name="GTB6" library="Connectors" package="B03B-PASK" value="JST3" x="82" y="5" smashed="yes" rot="R90">
+<element name="GTB6" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B03B-PASK" package3d_urn="urn:adsk.eagle:package:16054728/2" value="JST3" x="82" y="5" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.46" y="2.19" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="265" x="76.527" y="5.128" smashed="yes" rot="R180"/>
-<element name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="76.557" y="2.843" smashed="yes"/>
+<element name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068648/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="265" x="76.527" y="5.128" smashed="yes" rot="R180"/>
+<element name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068649/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="76.557" y="2.843" smashed="yes"/>
 <element name="LED_GTB6" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="76.527" y="7.192" smashed="yes" rot="R270">
+<attribute name="POPULARITY" value="68" x="76.527" y="7.192" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="75.257" y="4.652" size="1.27" layer="27"/>
 </element>
-<element name="COLOR1" library="Connectors" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="27.319" y="32.635" smashed="yes" rot="R90">
+<element name="COLOR1" library="Connectors" library_urn="urn:adsk.eagle:library:16054717" package="B04B-PASK" package3d_urn="urn:adsk.eagle:package:15874091/3" value="JST4" x="27.319" y="32.635" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.779" y="28.825" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="LED_GTB2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="65.514" y="16.359" smashed="yes" rot="R270">
+<attribute name="POPULARITY" value="68" x="65.514" y="16.359" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.244" y="13.819" size="1.27" layer="27"/>
 </element>
 <element name="TX" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="61.362" y="42.858" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.997" y="49.732" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="68" x="61.362" y="42.858" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="58.822" y="44.128" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LED_TIRETTE" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="48.019" y="33.348" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="68" x="48.019" y="33.348" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="49.289" y="35.888" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100" x="47.94" y="31.269" smashed="yes">
+<element name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" override_package3d_urn="urn:adsk.eagle:package:16068635/2" override_package_urn="urn:adsk.eagle:footprint:25626/1" value="100" x="47.94" y="31.269" smashed="yes">
 <attribute name="NAME" x="47.305" y="28.904" size="1.27" layer="25"/>
 </element>
 </elements>
@@ -8851,6 +8901,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
