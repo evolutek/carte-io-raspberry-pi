@@ -74,35 +74,10 @@
 </layers>
 <library>
 <packages>
-<package name="B02B-PASK" urn="urn:adsk.eagle:footprint:15874082/2">
-<pad name="P$1" x="1" y="0" drill="0.7"/>
-<pad name="P$2" x="-1" y="0" drill="0.7"/>
-<text x="1.968" y="0.5" size="1.27" layer="21">1</text>
-<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="3" y1="2.15" x2="-3" y2="2.15" width="0.127" layer="51"/>
-<wire x1="-3" y1="-3.15" x2="3" y2="-3.15" width="0.127" layer="51"/>
-<wire x1="3" y1="2.15" x2="3" y2="-3.15" width="0.127" layer="51"/>
-<wire x1="-3" y1="-3.15" x2="-3" y2="2.15" width="0.127" layer="51"/>
-<hole x="2.5" y="1.7" drill="1.1"/>
-</package>
-<package name="B04B-PASK" urn="urn:adsk.eagle:footprint:15874083/2">
-<pad name="P$1" x="3" y="0" drill="0.7"/>
-<pad name="P$2" x="1" y="0" drill="0.7"/>
-<pad name="P$3" x="-1" y="0" drill="0.7"/>
-<pad name="P$4" x="-3" y="0" drill="0.7"/>
-<text x="4" y="0.5" size="1.27" layer="21">1</text>
-<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="5" y1="2.15" x2="-5" y2="2.15" width="0.127" layer="51"/>
-<wire x1="-5" y1="-3.15" x2="5" y2="-3.15" width="0.127" layer="51"/>
-<wire x1="5" y1="2.15" x2="5" y2="-3.15" width="0.127" layer="51"/>
-<wire x1="-5" y1="-3.15" x2="-5" y2="2.15" width="0.127" layer="51"/>
-<hole x="4.5" y="1.7" drill="1.1"/>
-</package>
-<package name="B03B-PASK">
+<package name="B03B-PASK" urn="urn:adsk.eagle:footprint:16054720/1">
 <pad name="P$1" x="2" y="0" drill="0.7"/>
 <pad name="P$2" x="0" y="0" drill="0.7"/>
+<pad name="P$3" x="-2" y="0" drill="0.7"/>
 <text x="2.968" y="0.5" size="1.27" layer="21">1</text>
 <text x="-2.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
@@ -111,24 +86,8 @@
 <wire x1="4" y1="2.15" x2="4" y2="-3.15" width="0.127" layer="51"/>
 <wire x1="-4" y1="-3.15" x2="-4" y2="2.15" width="0.127" layer="51"/>
 <hole x="3.5" y="1.7" drill="1.1"/>
-<pad name="P$3" x="-2" y="0" drill="0.7"/>
 </package>
-<package name="B05B-PASK">
-<pad name="P$1" x="4" y="0" drill="0.7"/>
-<pad name="P$2" x="2" y="0" drill="0.7"/>
-<pad name="P$3" x="0" y="0" drill="0.7"/>
-<pad name="P$4" x="-2" y="0" drill="0.7"/>
-<text x="5" y="0.5" size="1.27" layer="21">1</text>
-<text x="-2.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="6" y1="2.15" x2="-6" y2="2.15" width="0.127" layer="51"/>
-<wire x1="-6" y1="-3.15" x2="6" y2="-3.15" width="0.127" layer="51"/>
-<wire x1="6" y1="2.15" x2="6" y2="-3.15" width="0.127" layer="51"/>
-<wire x1="-6" y1="-3.15" x2="-6" y2="2.15" width="0.127" layer="51"/>
-<hole x="5.5" y="1.7" drill="1.1"/>
-<pad name="P$5" x="-4" y="0" drill="0.7"/>
-</package>
-<package name="P-2604-3102">
+<package name="P-2604-3102" urn="urn:adsk.eagle:footprint:16054718/1">
 <wire x1="-11.7" y1="-9.4" x2="-11.7" y2="-5" width="0.01" layer="51"/>
 <wire x1="-11.7" y1="-4.4" x2="-11.7" y2="0" width="0.01" layer="51"/>
 <wire x1="3.3" y1="-2.9" x2="3.3" y2="0" width="0.01" layer="51"/>
@@ -644,8 +603,64 @@
 <pad name="P2.1" x="0" y="-7.3" drill="1.3" diameter="1.9304" shape="long"/>
 <pad name="P2.2" x="-8.2" y="-7.3" drill="1.3" diameter="1.9304" shape="long"/>
 </package>
+<package name="B05B-PASK" urn="urn:adsk.eagle:footprint:16054719/1">
+<pad name="P$1" x="4" y="0" drill="0.7"/>
+<pad name="P$2" x="2" y="0" drill="0.7"/>
+<pad name="P$3" x="0" y="0" drill="0.7"/>
+<pad name="P$4" x="-2" y="0" drill="0.7"/>
+<pad name="P$5" x="-4" y="0" drill="0.7"/>
+<text x="5" y="0.5" size="1.27" layer="21">1</text>
+<text x="-2.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="6" y1="2.15" x2="-6" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-6" y1="-3.15" x2="6" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="6" y1="2.15" x2="6" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="-6" y1="-3.15" x2="-6" y2="2.15" width="0.127" layer="51"/>
+<hole x="5.5" y="1.7" drill="1.1"/>
+</package>
+<package name="B02B-PASK" urn="urn:adsk.eagle:footprint:15874082/2">
+<pad name="P$1" x="1" y="0" drill="0.7"/>
+<pad name="P$2" x="-1" y="0" drill="0.7"/>
+<text x="1.968" y="0.5" size="1.27" layer="21">1</text>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="3" y1="2.15" x2="-3" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-3" y1="-3.15" x2="3" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="3" y1="2.15" x2="3" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="-3" y1="-3.15" x2="-3" y2="2.15" width="0.127" layer="51"/>
+<hole x="2.5" y="1.7" drill="1.1"/>
+</package>
+<package name="B04B-PASK" urn="urn:adsk.eagle:footprint:15874083/2">
+<pad name="P$1" x="3" y="0" drill="0.7"/>
+<pad name="P$2" x="1" y="0" drill="0.7"/>
+<pad name="P$3" x="-1" y="0" drill="0.7"/>
+<pad name="P$4" x="-3" y="0" drill="0.7"/>
+<text x="4" y="0.5" size="1.27" layer="21">1</text>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="5" y1="2.15" x2="-5" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-5" y1="-3.15" x2="5" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="5" y1="2.15" x2="5" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="-5" y1="-3.15" x2="-5" y2="2.15" width="0.127" layer="51"/>
+<hole x="4.5" y="1.7" drill="1.1"/>
+</package>
 </packages>
 <packages3d>
+<package3d name="P-2604-3102" urn="urn:adsk.eagle:package:16054726/2" type="model">
+<packageinstances>
+<packageinstance name="P-2604-3102"/>
+</packageinstances>
+</package3d>
+<package3d name="B03B-PASK" urn="urn:adsk.eagle:package:16054728/2" type="model">
+<packageinstances>
+<packageinstance name="B03B-PASK"/>
+</packageinstances>
+</package3d>
+<package3d name="B05B-PASK" urn="urn:adsk.eagle:package:16054727/2" type="model">
+<packageinstances>
+<packageinstance name="B05B-PASK"/>
+</packageinstances>
+</package3d>
 <package3d name="B02B-PASK" urn="urn:adsk.eagle:package:15874090/3" type="model">
 <packageinstances>
 <packageinstance name="B02B-PASK"/>
@@ -658,53 +673,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="JST2">
-<pin name="1" x="2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="2" x="-2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="JST4">
-<pin name="1" x="7.62" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="2" x="2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="3" x="-2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="4" x="-7.62" y="7.62" visible="pin" length="middle" rot="R270"/>
-<wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="JST3">
-<pin name="1" x="5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="2" x="0" y="7.62" visible="pin" length="middle" rot="R270"/>
-<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3" x="-5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
-</symbol>
-<symbol name="JST5">
-<pin name="1" x="10.16" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="2" x="5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="3" x="0" y="7.62" visible="pin" length="middle" rot="R270"/>
-<pin name="4" x="-5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
-<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="5" x="-10.16" y="7.62" visible="pin" length="middle" rot="R270"/>
-</symbol>
-<symbol name="S-2-2">
+<symbol name="S-2-2" urn="urn:adsk.eagle:symbol:16054721/1">
 <wire x1="0" y1="0" x2="9.94" y2="0" width="0.254" layer="97"/>
 <wire x1="9.94" y1="0" x2="9.94" y2="-3.96" width="0.254" layer="97"/>
 <wire x1="9.94" y1="-3.96" x2="0" y2="-3.96" width="0.254" layer="97"/>
@@ -720,9 +689,125 @@
 <pin name="P2.1" x="7.75" y="-6" visible="off" length="short" function="dot" rot="R180"/>
 <pin name="P2.2" x="3.6" y="-5.95" visible="off" length="short" function="dot" rot="R180"/>
 </symbol>
+<symbol name="JST3" urn="urn:adsk.eagle:symbol:16054723/1">
+<pin name="1" x="5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="2" x="0" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="3" x="-5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="JST5" urn="urn:adsk.eagle:symbol:16054722/1">
+<pin name="1" x="10.16" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="2" x="5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="3" x="0" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="4" x="-5.08" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="-10.16" y="7.62" visible="pin" length="middle" rot="R270"/>
+<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="JST2" urn="urn:adsk.eagle:symbol:16054725/1">
+<pin name="1" x="2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="2" x="-2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="JST4" urn="urn:adsk.eagle:symbol:16054724/1">
+<pin name="1" x="7.62" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="2" x="2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="3" x="-2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="4" x="-7.62" y="7.62" visible="pin" length="middle" rot="R270"/>
+<wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="JST2" prefix="J">
+<deviceset name="JST5" urn="urn:adsk.eagle:component:16054730/1" locally_modified="yes" prefix="J">
+<gates>
+<gate name="G$1" symbol="JST5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B05B-PASK">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16054727/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2604-3102" urn="urn:adsk.eagle:component:16054729/1" locally_modified="yes" prefix="X">
+<gates>
+<gate name="G$1" symbol="S-2-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="P-2604-3102">
+<connects>
+<connect gate="G$1" pin="P1.1" pad="P1.1"/>
+<connect gate="G$1" pin="P1.2" pad="P1.2"/>
+<connect gate="G$1" pin="P2.1" pad="P2.1"/>
+<connect gate="G$1" pin="P2.2" pad="P2.2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16054726/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" PCB Terminal Block, lever, 4 mm2, Pin spacing 5 mm, 2-pole, Push-in Cage Clamp "/>
+<attribute name="MF" value="WAGO Innovative Connections"/>
+<attribute name="MP" value="2604-3102"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST3" urn="urn:adsk.eagle:component:16054731/1" locally_modified="yes" prefix="J">
+<gates>
+<gate name="G$1" symbol="JST3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B03B-PASK">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16054728/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST2" urn="urn:adsk.eagle:component:16054733/1" prefix="J">
 <gates>
 <gate name="G$1" symbol="JST2" x="0" y="0"/>
 </gates>
@@ -741,7 +826,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST4" prefix="J">
+<deviceset name="JST4" urn="urn:adsk.eagle:component:16054732/1" prefix="J">
 <gates>
 <gate name="G$1" symbol="JST4" x="0" y="0"/>
 </gates>
@@ -758,67 +843,6 @@
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST3" prefix="J">
-<gates>
-<gate name="G$1" symbol="JST3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="B03B-PASK">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST5" prefix="J">
-<gates>
-<gate name="G$1" symbol="JST5" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="B05B-PASK">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-<connect gate="G$1" pin="5" pad="P$5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2604-3102" prefix="X">
-<gates>
-<gate name="G$1" symbol="S-2-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="P-2604-3102">
-<connects>
-<connect gate="G$1" pin="P1.1" pad="P1.1"/>
-<connect gate="G$1" pin="P1.2" pad="P1.2"/>
-<connect gate="G$1" pin="P2.1" pad="P2.1"/>
-<connect gate="G$1" pin="P2.2" pad="P2.2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" PCB Terminal Block, lever, 4 mm2, Pin spacing 5 mm, 2-pole, Push-in Cage Clamp "/>
-<attribute name="MF" value="WAGO Innovative Connections"/>
-<attribute name="MP" value="2604-3102"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
 </technologies>
 </device>
 </devices>
