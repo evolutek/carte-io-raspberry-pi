@@ -16083,6 +16083,8 @@ DIN A4, landscape with location and doc. field</description>
 <classes>
 <class number="0" name="default" width="0.15" drill="0">
 </class>
+<class number="1" name="3.3V" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
@@ -20705,7 +20707,7 @@ DIN A4, landscape with location and doc. field</description>
 <busses>
 </busses>
 <nets>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
