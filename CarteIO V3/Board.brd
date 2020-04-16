@@ -8655,28 +8655,27 @@ design rules under a new name.</description>
 <via x="38.885" y="36.625" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="SDA0">
-<contactref element="U2" pad="5"/>
 <contactref element="COLOR1" pad="P$2"/>
-<wire x1="28.5" y1="36.625" x2="28.5" y2="40.625" width="0.1524" layer="1"/>
-<wire x1="27.125" y1="35.25" x2="28.5" y2="36.625" width="0.1524" layer="1"/>
-<wire x1="25.625" y1="33.75" x2="27.125" y2="35.25" width="0.1524" layer="16"/>
-<wire x1="28.5" y1="40.625" x2="28.392" y2="40.749" width="0.1524" layer="1"/>
-<wire x1="25.625" y1="33.75" x2="25.684" y2="33.635" width="0.1524" layer="16"/>
-<via x="27.125" y="35.25" extent="1-16" drill="0.35"/>
+<contactref element="U2" pad="4"/>
+<wire x1="25.684" y1="33.635" x2="27" y2="34.951" width="0.1524" layer="16"/>
+<via x="27" y="39" extent="1-16" drill="0.35"/>
+<wire x1="27" y1="39" x2="27.742" y2="39.742" width="0.1524" layer="1"/>
+<wire x1="27.742" y1="39.742" x2="27.742" y2="40.749" width="0.1524" layer="1"/>
+<wire x1="27" y1="34.951" x2="27" y2="39" width="0.1524" layer="16"/>
 </signal>
 <signal name="SCL0">
-<contactref element="U2" pad="4"/>
 <contactref element="COLOR1" pad="P$3"/>
-<wire x1="27.625" y1="36.625" x2="27.625" y2="40.625" width="0.1524" layer="1"/>
 <wire x1="27.625" y1="35.625" x2="27.625" y2="36.625" width="0.1524" layer="16"/>
 <wire x1="27.75" y1="35.5" x2="27.625" y2="35.625" width="0.1524" layer="16"/>
 <wire x1="27.75" y1="32" x2="27.75" y2="35.5" width="0.1524" layer="16"/>
 <wire x1="26.25" y1="32" x2="27.75" y2="32" width="0.1524" layer="16"/>
 <wire x1="26" y1="31.75" x2="26.25" y2="32" width="0.1524" layer="16"/>
 <wire x1="25.75" y1="31.75" x2="26" y2="31.75" width="0.1524" layer="16"/>
-<wire x1="27.625" y1="40.625" x2="27.742" y2="40.749" width="0.1524" layer="1"/>
 <wire x1="25.75" y1="31.75" x2="25.684" y2="31.635" width="0.1524" layer="16"/>
 <via x="27.625" y="36.625" extent="1-16" drill="0.35"/>
+<contactref element="U2" pad="5"/>
+<wire x1="27.625" y1="36.625" x2="28.392" y2="37.392" width="0.1524" layer="1"/>
+<wire x1="28.392" y1="37.392" x2="28.392" y2="40.749" width="0.1524" layer="1"/>
 </signal>
 <signal name="INT_MDB">
 <contactref element="MDB" pad="P$4"/>

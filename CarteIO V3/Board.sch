@@ -21442,26 +21442,26 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="SDA0" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="SC0"/>
-<wire x1="246.38" y1="73.66" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
-<label x="248.92" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="COLOR1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
 <label x="10.16" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
-</net>
-<net name="SCL0" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SD0"/>
 <wire x1="246.38" y1="71.12" x2="248.92" y2="71.12" width="0.1524" layer="91"/>
 <label x="248.92" y="71.12" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="SCL0" class="0">
 <segment>
 <pinref part="COLOR1" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="10.16" y="43.18" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="SC0"/>
+<wire x1="246.38" y1="73.66" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
+<label x="248.92" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT_MDB" class="0">
