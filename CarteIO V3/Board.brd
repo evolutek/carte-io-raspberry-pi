@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4035,7 +4035,7 @@
 <rectangle x1="12.4463" y1="46.7901" x2="12.4971" y2="46.8155" layer="21"/>
 <rectangle x1="12.4463" y1="46.8155" x2="12.4717" y2="46.8409" layer="21"/>
 <text x="5.977" y="21.872" size="1.778" layer="21" rot="R90">Carte IO Raspi
-   V3.2 2020</text>
+   V3.2 - 2020</text>
 </plain>
 <libraries>
 <library name="Connectors" urn="urn:adsk.eagle:library:16054717">
