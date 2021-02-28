@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CarteIO"
-Date "2021-01-02"
-Rev "V4.0"
+Date "2021-02-28"
+Rev "V4.1"
 Comp "Evolutek<<"
 Comment1 ""
 Comment2 ""
@@ -651,9 +651,9 @@ Wire Notes Line
 Wire Notes Line
 	4300 2950 5900 2950
 Text Label 4650 3350 2    50   ~ 0
-LGRE
-Text Label 4650 3550 2    50   ~ 0
 LRED
+Text Label 4650 3550 2    50   ~ 0
+LGRE
 Wire Wire Line
 	4750 3350 4650 3350
 Wire Wire Line
@@ -701,17 +701,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 3550 50  0001 C CNN
 F 3 "~" H 5500 3550 50  0001 C CNN
 	1    5500 3550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Dual_CACA D6
-U 1 1 5FF31489
-P 5050 3450
-F 0 "D6" H 5000 3700 50  0000 R CNN
-F 1 "LED_Dual_CACA" H 5350 3200 50  0000 R CNN
-F 2 "ComponentsEvo:PLCC-4" H 5080 3450 50  0001 C CNN
-F 3 "~" H 5080 3450 50  0001 C CNN
-	1    5050 3450
-	-1   0    0    1   
 $EndComp
 Text Notes 5100 4000 0    50   ~ 0
 Tirette\n
@@ -2069,4 +2058,15 @@ Wire Wire Line
 Connection ~ 7850 1950
 Wire Wire Line
 	7850 2700 8050 2700
+$Comp
+L Device:LED_Dual_AACC D6
+U 1 1 603D6145
+P 5050 3450
+F 0 "D6" H 5050 3700 50  0000 C CNN
+F 1 "LED_Dual_AACC" H 4950 3200 50  0000 C CNN
+F 2 "ComponentsEvo:PLCC-4" H 5080 3450 50  0001 C CNN
+F 3 "~" H 5080 3450 50  0001 C CNN
+	1    5050 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
