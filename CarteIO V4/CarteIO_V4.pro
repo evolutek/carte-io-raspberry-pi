@@ -1,4 +1,4 @@
-update=31/03/2021 12:18:39
+update=04/01/21 01:01:54
 version=1
 last_client=kicad
 [general]
@@ -245,7 +245,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=C:/Users/kmikaz/Documents/lib-elec/TemplateKicad/TemplateEvolutek.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
