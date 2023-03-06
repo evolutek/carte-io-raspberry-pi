@@ -394,7 +394,7 @@
       "idf": "",
       "netlist": "CarteIO_V5.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Output/CarteIO_V6.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
