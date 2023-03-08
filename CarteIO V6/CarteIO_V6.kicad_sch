@@ -6,7 +6,7 @@
 
   (title_block
     (title "CarteIO Raspberry Pi")
-    (date "2023-03-06")
+    (date "2023-03-08")
     (rev "V6.0")
   )
 
@@ -3253,6 +3253,15 @@
     (uuid ff39189e-190f-47ae-89e1-f94afb83f99e)
   )
 
+  (text "*" (at 139.7 129.54 0)
+    (effects (font (size 6 6) (thickness 1.2) bold) (justify left bottom))
+    (uuid 0580575f-7a1f-47a0-b873-2be000fb63d8)
+  )
+  (text "R7 et R6 sont des résistances de SHUNT\npour la sortie des capteurs analogiques\npour le recalage (WTT12L-A2533).\n\nCes capteurs ont une sortie qui varie de\n3.5mA à 20mA, ce qui donne en signal avec\nune resistance de 150 ohms 3V max en entrée\nde l'ADC."
+    (at 20.32 173.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 21abd415-7239-4507-8b5a-a6cb3d65cac4)
+  )
   (text "Power Control\n" (at 107.95 130.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2a7d172d-0322-44d0-9294-7b90944ef6f5)
@@ -3272,6 +3281,10 @@
   (text "LED Strip" (at 210.82 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 463847db-a3fc-4f2a-bf4a-6367df7fd83f)
+  )
+  (text "*" (at 12.7 166.37 0)
+    (effects (font (size 6 6) (thickness 1.2) bold) (justify left bottom))
+    (uuid 4da271e9-e1b2-446e-8360-d08cccc8d4a0)
   )
   (text "Serial\n" (at 13.97 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3632,7 +3645,7 @@
     (property "Reference" "R1" (id 0) (at 43.688 63.6016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "510" (id 1) (at 43.688 65.913 0)
+    (property "Value" "1k" (id 1) (at 43.688 65.913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 40.132 64.77 90)
@@ -3686,7 +3699,7 @@
     (property "Reference" "R2" (id 0) (at 53.848 63.6016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "150" (id 1) (at 53.848 65.913 0)
+    (property "Value" "1k" (id 1) (at 53.848 65.913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 50.292 64.77 90)
@@ -4696,7 +4709,7 @@
     (property "Reference" "R3" (id 0) (at 64.008 63.6016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "68" (id 1) (at 64.008 65.913 0)
+    (property "Value" "1k" (id 1) (at 64.008 65.913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 60.452 64.77 90)
@@ -5453,7 +5466,7 @@
     (property "Reference" "R7" (id 0) (at 140.97 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "165" (id 1) (at 142.24 116.84 0)
+    (property "Value" "150" (id 1) (at 142.24 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 137.668 115.57 90)
@@ -5525,7 +5538,7 @@
     (property "Reference" "R6" (id 0) (at 140.97 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "165" (id 1) (at 142.24 96.52 0)
+    (property "Value" "150" (id 1) (at 142.24 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 137.668 95.25 90)
@@ -6376,13 +6389,13 @@
       (reference "Panel_IO1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "ConnectorsEvo:690367281076")
     )
     (path "/00000000-0000-0000-0000-00005ff190a5"
-      (reference "R1") (unit 1) (value "510") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff1b971"
-      (reference "R2") (unit 1) (value "150") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R2") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000600ff8f5"
-      (reference "R3") (unit 1) (value "68") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R3") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff30e47"
       (reference "R4") (unit 1) (value "68") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -6391,10 +6404,10 @@
       (reference "R5") (unit 1) (value "68") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/86675ed3-923e-436a-8981-0f056b8b4182"
-      (reference "R6") (unit 1) (value "165") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "150") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7c129078-ffd7-4e73-832b-8c212add8893"
-      (reference "R7") (unit 1) (value "165") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R7") (unit 1) (value "150") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff4acbf"
       (reference "R8") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
