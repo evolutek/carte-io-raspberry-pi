@@ -56,7 +56,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|26569999|53549999|00000000-0000-0000-0000-0000626f6df3|c137da37-72b4-450f-a8d8-508341652ab8",
+        "courtyards_overlap|72279599|46432172|00000000-0000-0000-0000-0000626f6df3|1e812e44-8310-42e0-9837-34e89fba1037"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -201,10 +204,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|762000|584200|8a410f51-b667-478c-9a5f-89fc05004c6b|f66b5e0b-e305-4e14-884a-57cafcb88511|/0727b340-90f0-4a02-96ab-5344831d8d41|/0727b340-90f0-4a02-96ab-5344831d8d41|/0727b340-90f0-4a02-96ab-5344831d8d41",
-      "pin_to_pin|774700|584200|f66b5e0b-e305-4e14-884a-57cafcb88511|8a410f51-b667-478c-9a5f-89fc05004c6b|/0727b340-90f0-4a02-96ab-5344831d8d41|/0727b340-90f0-4a02-96ab-5344831d8d41|/0727b340-90f0-4a02-96ab-5344831d8d41"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
