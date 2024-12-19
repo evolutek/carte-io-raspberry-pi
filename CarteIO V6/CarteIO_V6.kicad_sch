@@ -3277,7 +3277,7 @@
     (effects (font (size 6 6) (thickness 1.2) bold) (justify left bottom))
     (uuid 22d7d343-5474-4ae4-9f3c-2acf65e475d5)
   )
-  (text "R5 can be use\nto configure slope" (at 176.53 64.77 0)
+  (text "R5 can be used\nto configure slope" (at 176.53 64.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7f227c81-e4a3-44b0-9042-bb6141014ba6)
   )
